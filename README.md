@@ -21,6 +21,8 @@
   - Display
   - verschiedene Endgeräte mit E-Mail Client
 
+![Components](https://raw.githubusercontent.com/nikcani/plant-weather/main/components.png)
+
 ### Long
 
 - Messstation
