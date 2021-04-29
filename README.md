@@ -21,7 +21,7 @@
   - Display
   - verschiedene Endgeräte mit E-Mail Client
 
-![Components](https://raw.githubusercontent.com/nikcani/plant-weather/d467dc55a7d5efb065e1a3a92f3a6066ac3d1c3b/components.png)
+![Components](https://raw.githubusercontent.com/nikcani/plant-weather/main/components.png)
 
 ### Long
 
@@ -35,7 +35,11 @@
     - ESP32
     - Taster
       - stellt Schwellenwert ein
-      - aktiviert Display und damit die Anzeige der aktuellen Messdaten
+      - aktiviert Display
+    - Display
+      - Anzeige der aktuellen Messdaten
+    - LED
+      - blinkt bei aktiven Warnungen
   - Software
     - REST API: speichert erhaltene Messdaten
     - SMTP Client sendet Warnung an SMTP Relay
