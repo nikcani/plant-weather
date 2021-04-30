@@ -27,8 +27,8 @@
 
 - Messstation
   - Hardware
-    - entweder ESP8266 mit Sensordaten über das serielle Interface einer refurbished Radiosonde
-    - oder ESP32 mit Temperatursensot und evlt. Feuchtigkeitssensor
+    - entweder ESP32 mit Sensordaten über das serielle Interface einer refurbished Radiosonde
+    - oder ESP32 mit Temperatursensor und evlt. Feuchtigkeitssensor
   - sendet Messdaten regelmäßig via HTTP an die Indoor Station
 - Indoor Station
   - Hardware
