@@ -1,0 +1,4 @@
+#!/bin/bash
+
+rm -rf code/indoor-station/.pio
+rm -rf code/measurement-station/.pio
