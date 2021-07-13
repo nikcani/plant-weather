@@ -1,4 +1,4 @@
 #!/bin/bash
 
-cd code/indoor-station
+cd code/indoor-station || exit
 pio run --target upload
