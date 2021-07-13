@@ -80,9 +80,11 @@ void sendMail() {
 
     message.sender.name = "Plant Weather";
     message.sender.email = "plant@weather.io";
-    message.subject = "Testmeldung";
+    message.subject = "Alert Message";
     message.addRecipient(SECRET_USER_NAME, SECRET_USER_MAIL);
-    message.text.content = "Lorem ipsum";
+    char buff[100];
+    sprintf(buff, "Current Threshold: %i", threshold);
+    message.text.content = buff;
 
     smtp.connect(&session);
 
